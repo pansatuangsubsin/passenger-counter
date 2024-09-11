@@ -1,17 +1,19 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("station.jpg");
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
     text-align: center;
     height: 100vh;
 }
 
-.container {
+.container{
     background: white;
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
     border: 3px solid black;
     border-radius: 10px;
+
 }
 
 h1 {
@@ -37,14 +39,13 @@ button {
 }
 
 #increment-btn {
-    background: #2C2891;
+    background: darkred;
 }
 
 #save-btn {
-    background: #1C7947;
+    background: darkgreen;
 }
 
 #save-el {
     font-weight: bold;
 }
-
